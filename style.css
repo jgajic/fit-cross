@@ -1354,7 +1354,7 @@ textarea {
     /* height: 40vh;
     padding: 17px 25px 0 30px; */
     position: relative;
-    height: 38vh;
+    /* height: 38vh; */
     height: auto;
     padding: 68px 25px 0 30px;
   }
