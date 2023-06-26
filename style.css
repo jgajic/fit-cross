@@ -20,7 +20,7 @@ header {
       rgba(56, 56, 56, 0.3),
       rgba(56, 56, 56, 0.3)
     ),
-    url(img/1x/Mask\ Group\ 11.png);
+    url(img/1x/Mask-Group-11.jpg);
 
   height: 100vh;
   background-position: center;
@@ -261,7 +261,7 @@ h3 {
 
 .section3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/1x/Mask\ Group\ 13.png);
+    url(img/1x/Mask-Group-13.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -428,7 +428,7 @@ li {
 /* ..............workouts page............... */
 .header2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(img/1x/Mask\ Group\ 12.png);
+    url(img/1x/Mask-Group-12.jpg);
 
   height: 100vh;
   background-position: center;
@@ -670,7 +670,7 @@ li {
 
 .header3 {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), */
-  background-image: url(img/header3.png);
+  background-image: url(img/header3.jpg);
 
   height: 100vh;
   background-position: center;
@@ -1330,7 +1330,8 @@ textarea {
 
 @media screen and (max-width: 400px) {
   .wraps h3 {
-    font-size: 17px;
+    font-size: 15px;
+    width: 90%;
   }
 
   .contactUs h2 {
@@ -1339,11 +1340,31 @@ textarea {
 
   .training_lorem {
     font-size: 12px;
+    width: 55%;
   }
   .basic_div p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .wrap1 p {
     font-size: 12px;
+  }
+
+  .section3 p {
+    line-height: 1.5;
+  }
+
+  .basic {
+    height: 40vh;
+  }
+
+  .basic h3 {
+    width: 80%;
+  }
+
+  .workouts_txt p {
+    width: 80%;
+  }
+  .header2 h1 {
+    font-size: 18px;
   }
 }
