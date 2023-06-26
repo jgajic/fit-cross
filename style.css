@@ -299,7 +299,6 @@ h3 {
 
 .section3 a {
   background-color: #009dc8;
-  /* padding: 20px 80px; */
   padding: 10px 60px;
 }
 
@@ -510,7 +509,6 @@ li {
 .wrap1 div {
   width: 90%;
   height: 40vh;
-  /* border: 1px solid white; */
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -728,6 +726,7 @@ input {
   border-radius: 5px;
   border: 1px solid #8093a5;
   width: 250px;
+  color: white;
 }
 
 textarea {
@@ -1007,7 +1006,6 @@ textarea {
   }
 
   .coach {
-    /* width: 65%; */
     padding-right: 10px;
   }
 
@@ -1352,10 +1350,7 @@ textarea {
   }
 
   .basic {
-    /* height: 40vh;
-    padding: 17px 25px 0 30px; */
     position: relative;
-    /* height: 38vh; */
     height: auto;
     padding: 68px 25px 0 30px;
   }
