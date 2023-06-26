@@ -669,9 +669,7 @@ li {
 /* ..............contact page............... */
 
 .header3 {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), */
   background-image: url(img/header3.jpg);
-
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -851,12 +849,6 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1500px) {
-  .wrap1 {
-    flex: 0 0 40%;
-  }
-}
-
 @media screen and (max-width: 1600px) {
   .coach h3 {
     font-size: 16px;
@@ -883,6 +875,10 @@ textarea {
 
   .training-center {
     gap: 90px;
+  }
+
+  .wrap1 {
+    flex: 0 0 40%;
   }
 }
 
@@ -1343,7 +1339,7 @@ textarea {
     width: 55%;
   }
   .basic_div p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .wrap1 p {
     font-size: 12px;
@@ -1364,7 +1360,12 @@ textarea {
   .workouts_txt p {
     width: 80%;
   }
+
   .header2 h1 {
     font-size: 18px;
+  }
+
+  .basic h3 {
+    margin-top: -70px;
   }
 }
