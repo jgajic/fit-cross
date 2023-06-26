@@ -1336,7 +1336,8 @@ textarea {
 
   .training_lorem {
     font-size: 12px;
-    width: 55%;
+    width: 65%;
+    position: relative;
   }
   .basic_div p {
     font-size: 12px;
@@ -1354,6 +1355,7 @@ textarea {
     padding: 17px 25px 0 30px; */
     position: relative;
     height: 38vh;
+    height: auto;
     padding: 68px 25px 0 30px;
   }
 
