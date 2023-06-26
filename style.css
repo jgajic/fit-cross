@@ -1350,10 +1350,15 @@ textarea {
   }
 
   .basic {
-    height: 40vh;
+    /* height: 40vh;
+    padding: 17px 25px 0 30px; */
+    position: relative;
+    height: 38vh;
+    padding: 68px 25px 0 30px;
   }
 
   .basic h3 {
+    position: absolute;
     width: 80%;
   }
 
@@ -1366,6 +1371,13 @@ textarea {
   }
 
   .basic h3 {
-    margin-top: -70px;
+    margin-top: -101px;
+  }
+
+  .section2 .container {
+    width: 85%;
+  }
+  .workouts {
+    padding-bottom: 120px;
   }
 }
