@@ -1338,6 +1338,7 @@ textarea {
     font-size: 12px;
     width: 65%;
     position: relative;
+    padding: 10px 0;
   }
   .basic_div p {
     font-size: 12px;
