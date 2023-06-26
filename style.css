@@ -626,7 +626,7 @@ li {
   flex-direction: column;
   justify-content: flex-start;
   position: relative;
-  height: 37vh;
+  height: 42vh;
 }
 
 .basic h3 {
@@ -812,11 +812,19 @@ textarea {
   .wrap1 {
     flex: 0 0 24%;
   }
+
+  .basic {
+    height: 37vh;
+  }
 }
 
 @media screen and (max-width: 1900px) {
   .wrap1 .hidden {
     width: 85%;
+  }
+
+  .basic {
+    height: 37vh;
   }
 }
 
@@ -826,7 +834,6 @@ textarea {
   }
 
   .basic {
-    height: 33vh;
     padding: 34px 40px 0 50px;
   }
 
@@ -948,7 +955,7 @@ textarea {
   .basic {
     align-items: center;
     width: 65%;
-    height: 38vh;
+    height: 42vh;
   }
 
   .basic h3 {
@@ -1056,6 +1063,10 @@ textarea {
     padding: 15px 70px;
   }
 
+  .button {
+    padding: 15px 90px;
+  }
+
   .logo-footer {
     display: none;
   }
@@ -1113,10 +1124,10 @@ textarea {
   }
 
   .basic_div p {
-    font-size: 18px;
+    font-size: 17px;
   }
   .basic {
-    height: 35vh;
+    height: 40vh;
   }
 }
 
@@ -1142,10 +1153,6 @@ textarea {
 
   .section2 h2 {
     font-size: 30px;
-  }
-
-  .button {
-    padding: 10px 70px;
   }
 
   .container.training-center {
@@ -1314,6 +1321,10 @@ textarea {
   .wrap1 h3 {
     font-size: 17px;
     width: 85%;
+  }
+
+  .basic {
+    height: 38vh;
   }
 }
 
